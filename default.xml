@@ -1031,4 +1031,6 @@
   </project>
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/GMS.xml" />
+  <include name="snippets/MyShit.xml />
 </manifest>
