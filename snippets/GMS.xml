@@ -2,5 +2,5 @@
   <remote name="github-NestGMS" fetch="https://github.com" />
 
   <project path="vendor/gms" name="TheNestofRedLintu16/vendor_gms" />
-  <project path="vendor/pixel-style" name="TheNestofRedLintu16/vendor_pixel-style" />
+  <project path="vendor/pixel-style" name="TheNestofRedLintu16/pixel-style" />
 </manifest>
