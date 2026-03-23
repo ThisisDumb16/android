@@ -1,0 +1,19 @@
+<manifest>
+<remote name="github" fetch="https://github.com" />
+  
+  <remove-project name="LineageOS/android_packages_overlays_Lineage"/>
+  <remove-project name="LineageOS/android_vendor_lineage"/>
+  <remove-project name="LineageOS/android_build"/>
+
+    <project path="build/make" name="TheNestofRedLintu16/lineage_build" groups="pdk,sysui-studio" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="vendor/lineage" name="TheNestofRedLintu16/lineage_vendor_lineage" />
+  <project path="packages/overlays/Lineage" name="TheNestofRedLintu16/lineage_overlays_Lineage" />
+</manifest>
